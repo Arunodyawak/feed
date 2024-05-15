@@ -1,0 +1,105 @@
+
+.form-container {
+  width: 70%;
+  margin: 20px auto; /* Added margin for space from top and bottom */
+  padding: 20px; /* Added padding for space from left and right */
+  border: 1px solid #120349; /* Added border for visual separation */
+  border-radius: 5px; /* Added border radius for rounded corners */
+  display: flex; /* Added Flexbox display */
+  flex-direction: column;
+}
+ 
+
+
+
+
+/* Styling for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.submit-botton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #047baa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.submit-botton:hover {background-color: #093299}
+
+.submit-botton:active {
+  background-color: #093299;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.font{
+  text-align:center ;
+  font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: #020714;
+
+}
+
+.letters{
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+.radiobtn{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.p{
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.radio-input {
+    margin-bottom: 5px; /* Adjust as needed */
+    align-items: self-start;
+  }
+  .rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  .rating input {
+    display: none;
+  }
+  .rating label {
+    cursor: pointer;
+  }
+  .rating label::before {
+    content: '\2606'; /* Unicode for empty star */
+    margin: 5px;
+  }
+  .rating input:checked ~ label:before {
+    content: '\2605'; /* Unicode for filled star */
+    color: orange; /* Change color as desired */
+  }

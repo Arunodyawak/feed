@@ -1,0 +1,39 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    
+    background-image: url(HOME2.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(2, 31, 49);
+  }
+  
+  
+  
+  
+  
+  .P1{
+    align-items:self-end;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(7, 52, 96);
+  
+  }
+  
+ 

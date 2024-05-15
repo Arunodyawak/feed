@@ -1,0 +1,75 @@
+/* Styling for the container holding the medical report details */
+.pdf-container {
+  background-image: url(blur2.webp);
+  background-repeat: no-repeat;
+  background-size :cover ;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  padding: 15px;
+  
+  }
+  h3{
+    text-align:left ;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #093299;
+  }
+  /* Styling for the table */
+  table {
+    
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Styling for table headings */
+  th {
+    background-color: #8195e8;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Styling for table cells */
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styling for buttons */
+  button {
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #047baa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    align-self:center;
+    
+
+  }
+  
+  button:hover {
+    background-color: #093299;
+  }
+  
+  /* Styling for links inside buttons */
+  button :active {
+    background-color: #093299;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
+  
+  
+  
+  
+  
